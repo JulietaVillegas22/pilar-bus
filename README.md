@@ -37,4 +37,15 @@ el marco ágil Scrum (Fundamentos del Desarrollo de Software y Metodologías Ág
 | Desarrollo Frontend y Backend | Matías Chávez |
 | Tester (QA) | Thiago Candela |
 
-Tablero Kanban: https://trello.com/b/WRI8CErk/my-trello-board
+Tablero Kanban: https://trello.com/b/WRI8CErk/my-trello-board 
+
+## ‘Pilar Bus: Automatización mediante Pull Requests y CI/CD (Build, Test y Deploy) 
+Nuestro repositorio contiene tanto la arquitectura como el código de la aplicación y plataforma web ‘PilarBus’. Garantizando la estabilidad, seguridad y calidad en cada entrega de SO. Para ello, implementamos el uso de Pull Request y la Automatización CI/CD
+
+## Uso del Pull Request: Integracion de beneficios para 'PilarBus'
+
+- Mayor Calidad y Estabilidad; Por la Revisión de Códigos constante, los desarrolladores pueden examinar los cambios antes de fusionarlos, llegando a evitarse bugs/errores o regresiones antes del pase a producción. 
+
+- Colaboración eficiente: Utilidad para la discusión técnica, fomentación de revisión por pares (Code Review) y transferencia de conocimiento entre el equipo, permitiendo el debate de la arquitectura, sugerencia de ideas ante el código y espacio libre para realizar preguntas.
+
+- Pruebas Automatizadas: Utilizando la herramienta de ejecución de CI/CD sobre el código del Pull Request para verificar y asegurar que no se rompa nada existente.
