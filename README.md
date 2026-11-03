@@ -1,10 +1,5 @@
 # PilarBus – Ecosistema Móvil de Transporte Público
-
-Aplicación web para que los vecinos de Pilar vean el recorrido de los colectivos en tiempo real,
-reciban alertas de desvíos, consulten su tarjeta SUBE y envíen reclamos.
-
-Proyecto de la Municipalidad de Pilar junto con la Universidad Nacional de Pilar, desarrollado con
-el marco ágil Scrum (Fundamentos del Desarrollo de Software y Metodologías Ágiles – Comisión 3).
+'PilarBus' es una aplicación móvil y plataforma web desarrollada por los estudiantes de la Universidad Nacional del Pilar en conjunto con la Municipalidad para que los ciudadanos visualicen sin ninguna interrupción el recorrido de los colectivos en tiempo real, a su vez que reciba alertas de desvíos, puedan consultar sobre el saldo de su tarjeta SUBE y realizar reclamos. 
 
 **Sitio:** https://unpilar.github.io/pilar-bus/
 
@@ -40,20 +35,43 @@ el marco ágil Scrum (Fundamentos del Desarrollo de Software y Metodologías Ág
 Tablero Kanban: https://trello.com/b/WRI8CErk/my-trello-board
 
 
-## 🚍👥 'PilarBus' ; Ecosistema Movil de Transporte Publico 
-'PilarBus' es una aplicación móvil y plataforma web desarrollada por los estudiantes de la Universidad Nacional del Pilar en conjunto con la Municipalidad para que los ciudadanos visualicen sin ninguna interrupción el recorrido de los colectivos en tiempo real, a su vez que reciba alertas de desvíos, puedan consultar sobre el saldo de su tarjeta SUBE y realizar reclamos. 
+## Pilar Bus: Automatización mediante Pull Requests y CI/CD (Build, Test y Deploy) 
+Nuestro repositorio contiene tanto la arquitectura como el código de la aplicación y plataforma web ‘PilarBus’. Garantizando la estabilidad, seguridad y calidad en cada entrega de SO. Para ello, implementamos el uso de Pull Request y la Automatización CI/CD
 
 
 
-## 🛠️ Tecnologías Utilizadas
 
-Plataforma Web (Panel Municipal y Portal de Noticias): Next.js (React Framework)
 
-Aplicación Móvil: React Native / Flutter
 
-Backend & API Gateway: Node.js (Express)
+## Uso del Pull Request: Integracion de beneficios para 'PilarBus'
 
-Base de Datos & GIS: PostgreSQL + PostGIS (y Redis para caché GPS en tiempo real)
+- Mayor Calidad y Estabilidad; Por la Revisión de Códigos constante, los desarrolladores pueden examinar los cambios antes de fusionarlos, llegando a evitarse bugs/errores o regresiones antes del pase a producción. 
 
-Infraestructura & CI/CD: GitHub Actions + Docker + Vercel (para el despliegue del frontend web)
+- Colaboración eficiente: Utilidad para la discusión técnica, fomentación de revisión por pares (Code Review) y transferencia de conocimiento entre el equipo, permitiendo el debate de la arquitectura, sugerencia de ideas ante el código y espacio libre para realizar preguntas.
+
+- Pruebas Automatizadas: Utilizando la herramienta de ejecución de CI/CD sobre el código del Pull Request para verificar y asegurar que no se rompa nada existente. 
+   
+
+
+
+     ## Integracion/Entrega Continua (CI/CD - Build, Test y Deploy)
+
+####    Integracion Continua (CD - Build y Test)
+Práctica de desarrollo de software en donde nuestros desarrolladores fusionan cambios de código en un repositorio varias veces al día.
+
+- Build (Compilación): Verifica de que el código de la app móvil, plataforma web y del servidor compile correctamente sin errores de sintaxis 
+
+- Test (Pruebas): Ejecuta scripts de prueba para comprobar que las nuevas líneas de código no rompan funcionalidades anteriores.
+
+
+#### Entrega Continua y Despliegue Continuo (CD/DC - Deploy)
+ En cuanto las pruebas automáticas son válidas por el equipo, aprobando el Pull Request, el sistema hará un despliegue de actualización directamente desde la nube. Mediante estas técnicas sin tiempo de inactividad, el servidor actualiza los servicios en segundo plano, así, asegurando que los pasajeros no tengan ningún problema de interrupciones ante los recorridos de los colectivos en tiempo real. 
+
+
+
+
+
+
+
+
 
